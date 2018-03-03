@@ -1,6 +1,6 @@
 {
-	"version" : "1.0.5",
-	"updated" : "2017-07-16",
+	"version" : "1.0.6",
+	"updated" : "2018-03-03",
 	"slug" : "wolf-share",
 	"textdomain" : "wolf-share",
 	"name" : "Wolf Share",
@@ -13,7 +13,7 @@
 	"author" : "WolfThemes",
 	"authorURI" : "http://wolfthemes.com",
 	"requires" : "4.4.1",
-	"tested" : "4.9",
+	"tested" : "4.9.4",
 	"root" : "..",
 	"cssPath" : "../assets/css",
 	"jsPath" : "../assets/js",

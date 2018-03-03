@@ -1,3 +1,7 @@
+#### 3rd March 2018 - Version 1.0.6
+
+* Tweak: Added "no-link-style" class to share link to help themes
+
 #### 16th July 2017 - Version 1.0.5
 
 * Tweak: Added support for attachment post
