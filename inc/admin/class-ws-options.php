@@ -183,6 +183,10 @@ class Wolf_Share_Options {
 			$post_types[] = 'wpm_playlist';
 		}
 
+		if ( class_exists( 'Wolf_Artists' ) ) {
+			$post_types[] = 'artist';
+		}
+
 		return apply_filters( 'wolf_share_post_types', $post_types );
 	}
 
@@ -224,6 +228,7 @@ class Wolf_Share_Options {
 					'gallery' => 'on',
 					'video' => 'on',
 					'wpm_playlist' => 'on',
+					'artist' => 'on',
 					'attachment' => 'on',
 				),
 				'services' => array(

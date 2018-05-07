@@ -1,3 +1,7 @@
+#### 1st May 2018 - Version 1.0.7
+
+* Tweak: Added "artist" post type
+
 #### 3rd March 2018 - Version 1.0.6
 
 * Tweak: Added "no-link-style" class to share link to help themes
