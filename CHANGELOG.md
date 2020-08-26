@@ -1,3 +1,8 @@
+# Changelog
+#### 24th May 2020 - Version 1.0.8
+
+* Fix: "Reddit" text
+
 #### 1st May 2018 - Version 1.0.7
 
 * Tweak: Added "artist" post type

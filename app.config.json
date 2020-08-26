@@ -1,0 +1,14 @@
+{
+	"version": "1.0.8",
+	"updated": "2020-05-14",
+	"slug": "wolf-share",
+	"name": "Wolf Share",
+	"packagename": "WolfShare",
+	"created": "2017-06-01",
+	"createdNice": "1st June 2017",
+	"description": "A WordPress plugin to add share buttons to your post.",
+	"link": "http://github.com/wolfthemes/wolf-share",
+	"shortlink": "http://wlfthm.es/wolf-share",
+	"author": "WolfThemes",
+	"authorURI": "http://wolfthemes.com"
+}

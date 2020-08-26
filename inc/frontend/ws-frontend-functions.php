@@ -2,9 +2,9 @@
 /**
  * %NAME% Frontend Functions
  *
- * @author %AUTHOR%
+ * @author WolfThemes
  * @category Core
- * @package %PACKAGENAME%/Functions
+ * @package WolfShare/Functions
  * @since 10.0
  */
 

@@ -3,15 +3,13 @@
  * %NAME% Admin.
  *
  * @class Wolf_Share_Admin
- * @author %AUTHOR%
+ * @author WolfThemes
  * @category Admin
- * @package %PACKAGENAME%/Admin
+ * @package WolfShare/Admin
  * @version %VERSION%
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Wolf_Share_Admin class.
@@ -45,7 +43,7 @@ class Wolf_Share_Admin {
 		add_filter( 'plugin_action_links_' . plugin_basename( WS_PATH ), array( $this, 'settings_action_links' ) );
 
 		// Plugin update notifications
-		add_action( 'admin_init', array( $this, 'plugin_update' ) );
+		//add_action( 'admin_init', array( $this, 'plugin_update' ) );
 	}
 
 	/**
@@ -53,7 +51,7 @@ class Wolf_Share_Admin {
 	 */
 	public function settings_action_links( $links ) {
 		$setting_link = array(
-			'<a href="' . admin_url( 'themes.php?page=wolf-share-settings' ) . '">' . esc_html__( 'Settings', '%TEXTDOMAIN%' ) . '</a>',
+			'<a href="' . admin_url( 'themes.php?page=wolf-share-settings' ) . '">' . esc_html__( 'Settings', 'wolf-share' ) . '</a>',
 		);
 		return array_merge( $links, $setting_link );
 	}

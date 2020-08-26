@@ -3,15 +3,13 @@
  * %NAME% Options.
  *
  * @class Wolf_Share_Options
- * @author %AUTHOR%
+ * @author WolfThemes
  * @category Admin
- * @package %PACKAGENAME%/Admin
+ * @package WolfShare/Admin
  * @version %VERSION%
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Wolf_Share_Options class.
@@ -46,7 +44,7 @@ class Wolf_Share_Options {
 	 */
 	public function add_options_menu() {
 
-		add_theme_page( esc_html__( 'Share Buttons', '%TEXTDOMAIN%' ), esc_html__( 'Share Buttons', '%TEXTDOMAIN%' ), 'edit_plugins', 'wolf-share-settings', array( $this, 'options_form' ) );
+		add_theme_page( esc_html__( 'Share Buttons', 'wolf-share' ), esc_html__( 'Share Buttons', 'wolf-share' ), 'edit_plugins', 'wolf-share-settings', array( $this, 'options_form' ) );
 	}
 
 	/**
@@ -55,8 +53,8 @@ class Wolf_Share_Options {
 	public function register_settings() {
 		register_setting( 'wolf-share-settings', 'wolf_share_settings', array( $this, 'settings_validate' ) );
 		add_settings_section( 'wolf-share-settings', '', array( $this, 'section_intro' ), 'wolf-share-settings' );
-		add_settings_field( 'post_types', esc_html__( 'Post Types', '%TEXTDOMAIN%' ), array( $this, 'setting_post_types' ), 'wolf-share-settings', 'wolf-share-settings' );
-		add_settings_field( 'services', esc_html__( 'Services', '%TEXTDOMAIN%' ), array( $this, 'setting_services' ), 'wolf-share-settings', 'wolf-share-settings' );
+		add_settings_field( 'post_types', esc_html__( 'Post Types', 'wolf-share' ), array( $this, 'setting_post_types' ), 'wolf-share-settings', 'wolf-share-settings' );
+		add_settings_field( 'services', esc_html__( 'Services', 'wolf-share' ), array( $this, 'setting_services' ), 'wolf-share-settings', 'wolf-share-settings' );
 	}
 
 	/**
@@ -129,16 +127,16 @@ class Wolf_Share_Options {
 	public function options_form() {
 		?>
 		<div class="wrap">
-			<h2><?php esc_html_e( 'Share Button Options', '%TEXTDOMAIN%' ); ?></h2>
+			<h2><?php esc_html_e( 'Share Button Options', 'wolf-share' ); ?></h2>
 			<?php if ( isset( $_GET['settings-updated'] ) && $_GET['settings-updated'] ) { ?>
 			<div id="setting-error-settings_updated" class="updated settings-error">
-				<p><strong><?php esc_html_e( 'Settings saved.', '%TEXTDOMAIN%' ); ?></strong></p>
+				<p><strong><?php esc_html_e( 'Settings saved.', 'wolf-share' ); ?></strong></p>
 			</div>
 			<?php } ?>
 			<form action="options.php" method="post">
 				<?php settings_fields( 'wolf-share-settings' ); ?>
 				<?php do_settings_sections( 'wolf-share-settings' ); ?>
-				<p class="submit"><input name="save" type="submit" class="button-primary" value="<?php esc_html_e( 'Save Changes', '%TEXTDOMAIN%' ); ?>" /></p>
+				<p class="submit"><input name="save" type="submit" class="button-primary" value="<?php esc_html_e( 'Save Changes', 'wolf-share' ); ?>" /></p>
 			</form>
 		</div>
 		<?php
@@ -234,7 +232,7 @@ class Wolf_Share_Options {
 				'services' => array(
 					'facebook' => 'on',
 					'twitter' => 'on',
-					'email' => 'on',
+					//'email' => 'on',
 				),
 			) );
 
