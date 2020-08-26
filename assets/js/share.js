@@ -1,5 +1,5 @@
 /*!
- * %NAME% %VERSION% 
+ * Wolf Share 1.0.8 
  */
 /* jshint -W062 */
 /* global WolfShareJSParams */

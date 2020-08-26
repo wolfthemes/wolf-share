@@ -1,6 +1,6 @@
 <?php
 /**
- * %NAME% Frontend Functions
+ * Wolf Share Frontend Functions
  *
  * @author WolfThemes
  * @category Core
@@ -8,9 +8,7 @@
  * @since 10.0
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Output social sharing button

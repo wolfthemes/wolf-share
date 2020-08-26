@@ -1,18 +1,16 @@
 <?php
 /**
- * %NAME% core functions
+ * Wolf Share core functions
  *
  * General core functions available on admin and frontend
  *
  * @author WolfThemes
  * @category Core
  * @package WolfShare/Core
- * @version %VERSION%
+ * @version 1.0.8
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Get options

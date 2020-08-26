@@ -1,13 +1,13 @@
 <?php
 /**
- * %NAME% Uninstall
+ * Wolf Share Uninstall
  *
- * Uninstalling %NAME%
+ * Uninstalling Wolf Share
  *
  * @author WolfThemes
  * @category Core
  * @package WolfShare/Uninstaller
- * @version %VERSION%
+ * @version 1.0.8
  */
 
 defined( 'WP_UNINSTALL_PLUGIN' ) || exit;

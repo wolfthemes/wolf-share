@@ -1,12 +1,12 @@
 <?php
 /**
- * %NAME% Shortcode.
+ * Wolf Share Shortcode.
  *
  * @class Wolf_Share_Shortcode
  * @author WolfThemes
  * @category Core
  * @package WolfShare/Shortcode
- * @version %VERSION%
+ * @version 1.0.8
  * @since 1.0.0
  */
 

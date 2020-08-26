@@ -1,12 +1,12 @@
 <?php
 /**
- * %NAME% Options.
+ * Wolf Share Options.
  *
  * @class Wolf_Share_Options
  * @author WolfThemes
  * @category Admin
  * @package WolfShare/Admin
- * @version %VERSION%
+ * @version 1.0.8
  */
 
 defined( 'ABSPATH' ) || exit;

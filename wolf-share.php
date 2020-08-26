@@ -2,8 +2,8 @@
 /**
  * Plugin Name: Wolf Share
  * Plugin URI: https://wlfthm.es/wolf-share
- * Description: %DESCRIPTION%
- * Version: %VERSION%
+ * Description: A WordPress plugin to add share buttons to your post.
+ * Version: 1.0.8
  * Author: WolfThemes
  * Author URI: https://wolfthemes.com
  * Requires at least: 5.0
@@ -30,7 +30,7 @@ if ( ! class_exists( 'Wolf_Share' ) ) {
 	 * Contains the main functions for Wolf_Share
 	 *
 	 * @class Wolf_Share
-	 * @version %VERSION%
+	 * @version 1.0.8
 	 * @since 1.0.0
 	 */
 	class Wolf_Share {
@@ -38,26 +38,23 @@ if ( ! class_exists( 'Wolf_Share' ) ) {
 		/**
 		 * @var string
 		 */
-		public $version = '%VERSION%';
+		public $version = '1.0.8';
 
 		/**
-		 * @var %NAME% The single instance of the class
+		 * @var Wolf Share The single instance of the class
 		 */
 		protected static $_instance = null;
 
-		/**
-		 * @var string
-		 */
-		private $update_url = 'https://plugins.wolfthemes.com/update';
+
 
 		/**
-		 * Main %NAME% Instance
+		 * Main Wolf Share Instance
 		 *
-		 * Ensures only one instance of %NAME% is loaded or can be loaded.
+		 * Ensures only one instance of Wolf Share is loaded or can be loaded.
 		 *
 		 * @static
 		 * @see WSHARE()
-		 * @return %NAME% - Main instance
+		 * @return Wolf Share - Main instance
 		 */
 		public static function instance() {
 			if ( is_null( self::$_instance ) ) {
@@ -67,7 +64,7 @@ if ( ! class_exists( 'Wolf_Share' ) ) {
 		}
 
 		/**
-		 * %NAME% Constructor.
+		 * Wolf Share Constructor.
 		 */
 		public function __construct() {
 
@@ -111,7 +108,6 @@ if ( ! class_exists( 'Wolf_Share' ) ) {
 				'WS_SLUG' => plugin_basename( dirname( __FILE__ ) ),
 				'WS_PATH' => plugin_basename( __FILE__ ),
 				'WS_VERSION' => $this->version,
-				'WS_UPDATE_URL' => $this->update_url,
 				'WS_DOC_URI' => 'https://docs.wolfthemes.com/documentation/plugins/' . plugin_basename( dirname( __FILE__ ) ),
 				'WS_WOLF_DOMAIN' => 'wolfthemes.com',
 			);
@@ -174,7 +170,7 @@ if ( ! class_exists( 'Wolf_Share' ) ) {
 		}
 
 		/**
-		 * Init %NAME% when WordPress Initialises.
+		 * Init Wolf Share when WordPress Initialises.
 		 */
 		public function init() {
 			// Before init action

@@ -3,8 +3,8 @@
  * Template part for displaying social share buttons
  *
  * @package WordPress
- * @subpackage %NAME%
- * @version %VERSION%
+ * @subpackage Wolf Share
+ * @version 1.0.8
  */
 $services = wolf_share_get_option( 'services' );
 ?>

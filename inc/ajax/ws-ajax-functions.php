@@ -1,16 +1,14 @@
 <?php
 /**
- * %NAME% AJAX Functions
+ * Wolf Share AJAX Functions
  *
  * @author WolfThemes
  * @category Ajax
  * @package WolfShare/Functions
- * @version %VERSION%
+ * @version 1.0.8
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Shares
