@@ -1,10 +1,10 @@
 # Copyright (C) 2020 WolfThemes
-# This file is distributed under the same license as the Wolf Share package.
+# This file is distributed under the same license as the Share Icons package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Wolf Share 1.0.8\n"
+"Project-Id-Version: Share Icons 1.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wolf-share\n"
-"POT-Creation-Date: 2020-08-26 10:17:01+00:00\n"
+"POT-Creation-Date: 2020-08-27 13:29:40+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -189,7 +189,7 @@ msgid "Xing"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-msgid "Wolf Share"
+msgid "Share Icons"
 msgstr ""
 
 #. Plugin URI of the plugin/theme

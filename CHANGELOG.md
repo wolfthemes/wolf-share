@@ -1,7 +1,8 @@
 # Changelog
 
-#### 26th August 2020 - Version 1.0.9
+#### 26th August 2020 - Version 1.1.0
 
+-   Tweak: Unbrand plugin name
 -   Tweak: Move project to GH
 
 #### 24th May 2020 - Version 1.0.8

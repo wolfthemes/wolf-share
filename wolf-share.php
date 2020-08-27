@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: Wolf Share
+ * Plugin Name: Share Icons
  * Plugin URI: https://wlfthm.es/wolf-share
  * Description: A WordPress plugin to add share buttons to your post.
- * Version: 1.0.8
+ * Version: 1.1.0
  * Author: WolfThemes
  * Author URI: https://wolfthemes.com
  * Requires at least: 5.0
@@ -30,7 +30,7 @@ if ( ! class_exists( 'Wolf_Share' ) ) {
 	 * Contains the main functions for Wolf_Share
 	 *
 	 * @class Wolf_Share
-	 * @version 1.0.8
+	 * @version 1.1.0
 	 * @since 1.0.0
 	 */
 	class Wolf_Share {
@@ -38,7 +38,7 @@ if ( ! class_exists( 'Wolf_Share' ) ) {
 		/**
 		 * @var string
 		 */
-		public $version = '1.0.8';
+		public $version = '1.1.0';
 
 		/**
 		 * @var Wolf Share The single instance of the class

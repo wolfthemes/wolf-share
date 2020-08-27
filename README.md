@@ -1,4 +1,4 @@
-# Thanks for downloading Wolf Share!
+# Thanks for downloading Share Icons!
 
 A WordPress plugin to add share buttons to your post.
 
