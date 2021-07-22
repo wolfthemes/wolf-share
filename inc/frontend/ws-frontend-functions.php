@@ -63,10 +63,10 @@ function wolf_share( $echo = true ) {
 function wolf_share_count( $echo = true ) {
 
 	if ( $echo ) {
-		echo wolf_share_format_number( get_post_meta( get_the_ID(), '_wolf_shares_count', true ) );
+		echo wolf_share_format_number( absint( get_post_meta( get_the_ID(), '_wolf_shares_count', true ) ) );
 	}
 
-	return wolf_share_format_number( get_post_meta( get_the_ID(), '_wolf_shares_count', true ) );
+	return wolf_share_format_number( absint( get_post_meta( get_the_ID(), '_wolf_shares_count', true ) ) );
 }
 
 

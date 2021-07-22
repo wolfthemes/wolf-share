@@ -1,5 +1,9 @@
 # Changelog
 
+#### 22th July 2021 - Version 1.1.1
+
+-   Tweak: PHP8 fix
+
 #### 26th August 2020 - Version 1.1.0
 
 -   Tweak: Unbrand plugin name
