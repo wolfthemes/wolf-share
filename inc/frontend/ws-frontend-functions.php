@@ -69,8 +69,6 @@ function wolf_share_count( $echo = true ) {
 	return wolf_share_format_number( absint( get_post_meta( get_the_ID(), '_wolf_shares_count', true ) ) );
 }
 
-
-
 /**
  * Format number : 1000 -> 1K
  *
