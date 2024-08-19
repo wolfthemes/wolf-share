@@ -1,5 +1,5 @@
 /*!
- * Wolf Share 1.0.8 
+ * Wolf Share 1.0.8
  */
 /* jshint -W062 */
 /* global WolfShareJSParams */
@@ -15,6 +15,7 @@ var WolfShare = function( $ ) {
 		 */
 		init : function () {
 			this.shareLinkPopup();
+			this.svgLogo();
 		},
 
 		/**
@@ -60,6 +61,43 @@ var WolfShare = function( $ ) {
 			};
 
 			$.post( WolfShareJSParams.ajaxUrl , data, function() {} );
+		},
+
+		/**
+		 * Convert SVG logo image to inline SVG
+		 */
+		svgLogo: function () {
+			$("img.ws-svg").each(function () {
+				var $img = $(this),
+					imgID = $img.attr("id"),
+					imgClass = $img.attr("class"),
+					imgURL = $img.attr("src"),
+					$svg;
+
+				$.get(
+					imgURL,
+					function (data) {
+						$svg = $(data).find("svg");
+
+						if (typeof imgID !== "undefined") {
+							$svg = $svg.attr("id", imgID);
+						}
+
+						if (typeof imgClass !== "undefined") {
+							$svg = $svg.attr(
+								"class",
+								imgClass + " ws-replaced-svg"
+							);
+						}
+
+						$svg = $svg.removeAttr("xmlns:a");
+
+						// Replace image with new SVG
+						$img.replaceWith($svg);
+					},
+					"xml"
+				);
+			});
 		},
 	};
 

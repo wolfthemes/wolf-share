@@ -1,5 +1,9 @@
 # Changelog
 
+#### 19th August 2024 - Version 1.1.2
+
+-   Fix: Updated Twitter - X Icon
+
 #### 22th July 2021 - Version 1.1.1
 
 -   Tweak: PHP8 fix

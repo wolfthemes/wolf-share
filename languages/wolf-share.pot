@@ -1,14 +1,14 @@
-# Copyright (C) 2021 WolfThemes
+# Copyright (C) 2024 WolfThemes
 # This file is distributed under the same license as the Share Icons package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Share Icons 1.1.1\n"
+"Project-Id-Version: Share Icons 1.1.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wolf-share\n"
-"POT-Creation-Date: 2021-07-22 14:01:49+00:00\n"
+"POT-Creation-Date: 2024-08-19 12:01:53+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "X-Generator: grunt-wp-i18n 0.5.4\n"
@@ -61,131 +61,97 @@ msgid "B"
 msgstr ""
 
 #: inc/admin/class-ws-admin.php:54
-#: pack/wolf-share/inc/admin/class-ws-admin.php:54
 msgid "Settings"
 msgstr ""
 
 #: inc/admin/class-ws-options.php:47
-#: pack/wolf-share/inc/admin/class-ws-options.php:47
 msgid "Share Buttons"
 msgstr ""
 
 #: inc/admin/class-ws-options.php:56
-#: pack/wolf-share/inc/admin/class-ws-options.php:56
 msgid "Post Types"
 msgstr ""
 
 #: inc/admin/class-ws-options.php:57
-#: pack/wolf-share/inc/admin/class-ws-options.php:57
 msgid "Services"
 msgstr ""
 
 #: inc/admin/class-ws-options.php:130
-#: pack/wolf-share/inc/admin/class-ws-options.php:130
 msgid "Share Button Options"
 msgstr ""
 
 #: inc/admin/class-ws-options.php:133
-#: pack/wolf-share/inc/admin/class-ws-options.php:133
 msgid "Settings saved."
 msgstr ""
 
 #: inc/admin/class-ws-options.php:139
-#: pack/wolf-share/inc/admin/class-ws-options.php:139
 msgid "Save Changes"
 msgstr ""
 
-#: inc/admin/updater.php:434 pack/wolf-share/inc/admin/updater.php:434
+#: inc/admin/updater.php:434
 msgid ""
 "The plugin has been updated, but could not be reactivated. Please "
 "reactivate it manually."
 msgstr ""
 
-#: inc/admin/updater.php:435 pack/wolf-share/inc/admin/updater.php:435
+#: inc/admin/updater.php:435
 msgid "Plugin reactivated successfully."
 msgstr ""
 
-#: pack/share.php:23 pack/share.php:34
-#: pack/wolf-share/templates/share-buttons.php:26
-#: pack/wolf-share/templates/share-buttons.php:40
-#: pack/wolf-share/templates/share-buttons.php:54
-#: pack/wolf-share/templates/share-buttons.php:70
-#: pack/wolf-share/templates/share-buttons.php:84
-#: pack/wolf-share/templates/share-buttons.php:99
-#: pack/wolf-share/templates/share-buttons.php:113
-#: pack/wolf-share/templates/share-buttons.php:129
-#: pack/wolf-share/templates/share-buttons.php:145
-#: pack/wolf-share/templates/share-buttons.php:161
-#: templates/share-buttons.php:26 templates/share-buttons.php:40
-#: templates/share-buttons.php:54 templates/share-buttons.php:70
-#: templates/share-buttons.php:84 templates/share-buttons.php:99
-#: templates/share-buttons.php:113 templates/share-buttons.php:129
-#: templates/share-buttons.php:145 templates/share-buttons.php:161
-msgid "Share on %s"
-msgstr ""
-
-#: pack/share.php:25 pack/wolf-share/templates/share-buttons.php:28
-#: templates/share-buttons.php:28
-msgid "Facebook"
-msgstr ""
-
-#: pack/share.php:36 pack/wolf-share/templates/share-buttons.php:42
-#: templates/share-buttons.php:42
-msgid "Twitter"
-msgstr ""
-
-#: pack/share.php:45 pack/wolf-share/templates/share-buttons.php:175
-#: templates/share-buttons.php:175
-msgid "Share by %s"
-msgstr ""
-
-#: pack/share.php:47
-msgid "Email"
-msgstr ""
-
-#: pack/wolf-share/templates/share-buttons.php:13
 #: templates/share-buttons.php:13
 msgid "Shared %s times"
 msgstr ""
 
-#: pack/wolf-share/templates/share-buttons.php:56
-#: templates/share-buttons.php:56
+#: templates/share-buttons.php:26 templates/share-buttons.php:41
+#: templates/share-buttons.php:56 templates/share-buttons.php:72
+#: templates/share-buttons.php:86 templates/share-buttons.php:101
+#: templates/share-buttons.php:115 templates/share-buttons.php:131
+#: templates/share-buttons.php:147 templates/share-buttons.php:163
+msgid "Share on %s"
+msgstr ""
+
+#: templates/share-buttons.php:28
+msgid "Facebook"
+msgstr ""
+
+#: templates/share-buttons.php:43
+msgid "Twitter"
+msgstr ""
+
+#: templates/share-buttons.php:58
 msgid "Reddit"
 msgstr ""
 
-#: pack/wolf-share/templates/share-buttons.php:72
-#: templates/share-buttons.php:72
+#: templates/share-buttons.php:74
 msgid "Pinterest"
 msgstr ""
 
-#: pack/wolf-share/templates/share-buttons.php:86
-#: templates/share-buttons.php:86
+#: templates/share-buttons.php:88
 msgid "Tumblr"
 msgstr ""
 
-#: pack/wolf-share/templates/share-buttons.php:101
-#: templates/share-buttons.php:101
+#: templates/share-buttons.php:103
 msgid "Google Plus"
 msgstr ""
 
-#: pack/wolf-share/templates/share-buttons.php:115
-#: templates/share-buttons.php:115
+#: templates/share-buttons.php:117
 msgid "LinkedIn"
 msgstr ""
 
-#: pack/wolf-share/templates/share-buttons.php:131
-#: templates/share-buttons.php:131
+#: templates/share-buttons.php:133
 msgid "StumbleUpon"
 msgstr ""
 
-#: pack/wolf-share/templates/share-buttons.php:147
-#: templates/share-buttons.php:147
+#: templates/share-buttons.php:149
 msgid "VKontakte"
 msgstr ""
 
-#: pack/wolf-share/templates/share-buttons.php:163
-#: templates/share-buttons.php:163
+#: templates/share-buttons.php:165
 msgid "Xing"
+msgstr ""
+
+#: templates/share-buttons.php:177
+msgid "Share by %s"
 msgstr ""
 
 #. Plugin Name of the plugin/theme

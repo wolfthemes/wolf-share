@@ -679,3 +679,19 @@ body.twentyseventeen .wolf-share-button a {
     display: inline;
   }
 }
+
+.socicon-x{
+	top: -3px;
+}
+
+.socicon-x:before {
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	speak: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: url(../img/x.svg) !important;
+}

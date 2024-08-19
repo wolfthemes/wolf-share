@@ -34,13 +34,15 @@ $services = wolf_share_get_option( 'services' );
 	<?php if ( isset( $services['twitter'] ) ) : ?>
 		<span class="wolf-share-button wolf-share-button-twitter">
 			<a
+				style="top:6px"
 				data-popup="true"
-				href="http://twitter.com/home?status=<?php echo urlencode( get_the_title() ) . ' - ' . urlencode( get_permalink() ); ?>"
-				class="socicon-twitter wolf-share-link no-link-style wolf-share-link-twitter"
+				href="https://twitter.com/intent/tweet?text=<?php echo urlencode( get_the_title() ) . ' - ' . urlencode( get_permalink() ); ?>"
+				class="socicon-x wolf-share-link no-link-style wolf-share-link-twitter"
 				title="<?php printf( esc_html__( 'Share on %s', 'wolf-share' ), ucfirst( 'twitter' ) ); ?>">
 				<span class="wolf-share-link-text">
 					<?php esc_html_e( 'Twitter', 'wolf-share' ); ?>
 				</span>
+				<img class="ws-svg" src="<?php echo esc_url( WS_IMG . '/x.svg' ); ?>" alt="">
 			</a>
 		</span><!-- .wolf-share-twitter -->
 	<?php endif; ?>
