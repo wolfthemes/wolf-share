@@ -34,7 +34,6 @@ $services = wolf_share_get_option( 'services' );
 	<?php if ( isset( $services['twitter'] ) ) : ?>
 		<span class="wolf-share-button wolf-share-button-twitter">
 			<a
-				style="top:6px"
 				data-popup="true"
 				href="https://twitter.com/intent/tweet?text=<?php echo urlencode( get_the_title() ) . ' - ' . urlencode( get_permalink() ); ?>"
 				class="socicon-x wolf-share-link no-link-style wolf-share-link-twitter"
