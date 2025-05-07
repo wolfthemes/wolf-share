@@ -1,5 +1,9 @@
 # Changelog
 
+#### 19th August 2024 - Version 1.1.3
+
+-   Fix: X icon position
+
 #### 19th August 2024 - Version 1.1.2
 
 -   Fix: Updated Twitter - X Icon
